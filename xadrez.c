@@ -40,7 +40,6 @@ void rainha(int casasR)
     }
 }
 
-
 int main() {
     // Nível Mestre - Funções Recursivas e Loops Aninhados
     // Sugestão: Substitua as movimentações das peças por funções recursivas.
@@ -53,6 +52,7 @@ int main() {
     int quantidaderainha = 8;
     int quantidadebispo = 5;
     int cavalo, d = 1;
+
     // Implementação de Movimentação do Bispo
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação do Bispo em diagonal.
 
@@ -103,8 +103,5 @@ int main() {
             }   
     }
 
-
-        
-   
     return 0;
 }
