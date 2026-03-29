@@ -49,7 +49,7 @@ int main() {
     // Sugestão: Implemente a movimentação do Cavalo utilizando loops com variáveis múltiplas e condições avançadas.
     // Inclua o uso de continue e break dentro dos loops.ntes
     
-    int quantidadetorre = 5,
+    int quantidadetorre = 5;
     int quantidaderainha = 8;
     int quantidadebispo = 5;
     int cavalo, d = 1;
@@ -90,17 +90,21 @@ int main() {
     printf("Movimentação do Cavalo\n");
     printf("\n");
 
-    for (cavalo = 1; cavalo <= 2; cavalo++ )
+    for (cavalo = 1; cavalo <= 2; cavalo++)
     {
-        printf("Baixo\n");
+        printf("Cima\n");
+
+            if (cavalo == 2)
+            {
+                for (int direita = 1; direita <= 1; direita++)
+                {
+                       printf("Direita\n");
+                }
+            }   
     }
 
-     while (d <= 1){
-    
-        printf("Esquerda\n");
-        d++;
 
-    }    
+        
    
     return 0;
 }
